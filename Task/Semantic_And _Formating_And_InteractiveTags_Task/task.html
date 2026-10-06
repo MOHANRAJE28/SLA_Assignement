@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-1: Semantic & Formatting Tags</title>
+    <!-- Minimal CSS for basic layout visibility -->
+    <style>
+        body { 
+            font-family: Arial, sans-serif;
+             margin: 20px;
+              line-height: 1.5; }
+        header, nav, main, section, article, aside, footer { 
+            border: 1px dashed #ccc;
+             padding: 15px; 
+             margin-bottom: 10px; }
+        header { background: #f0f0f06e; }
+        footer { background: #f0f0f084; 
+            text-align: center; }
+        aside { background: #fafafa;
+             font-style: italic; }
+    </style>
+</head>
+<body id="top">
+
+    <!-- TASK FOR SEMANTIC TAGS -->
+    <header>
+        <h1>My Website Logo / Title</h1>
+        <nav>
+            <a href="#section1">Home</a> | 
+            <a href="#section2">Articles</a> | 
+            <a href="#feedback-form">Feedback</a>
+        </nav>
+    </header> 
+    
+    <main>
+        <!-- Section 1 -->
+        <section id="section1">
+            <h2>Section 1: Semantic Elements</h2>
+            <article>
+                <h3>Standalone Article</h3>
+                <p>Semantic tags help search engines (SEO) and screen readers (accessibility) understand webpage structure.</p>
+            </article>
+            <aside>
+                <p>Aside content: Advertisement or sidebar links.</p>
+            </aside>
+        </section>
+
+        <!-- Section 2 -->
+        <section id="section2">
+            <h2>Section 2: Content Layout</h2>
+            <article>
+                <h3>Another Article Example</h3>
+                <p>Using elements like <strong>&lt;section&gt;</strong> and <strong>&lt;article&gt;</strong> organizes content logically.</p>
+            </article>
+            <aside>
+                <p>Aside content: Related side notes.</p>
+            </aside>
+        </section>
+
+        <!-- TASK FOR FORMATTING TAGS & INTERACTIVE ELEMENTS -->
+        <section id="feedback-form">
+            <h2>Formatting Tags Practice</h2>
+            
+            <p><b>This is bold text (b tag)</b> vs <strong>this is important text (strong tag)</strong>.</p>
+            <p><i>This is italicized text (i tag)</i> vs <em>this is emphasized text (em tag)</em>.</p>
+            <p>You can <u>underline text</u>, <mark>highlight text</mark>, and add <small>small fine print text</small>.</p>
+
+            <p>
+                Check out this <a href="https://www.flipkart.com/" target="_blank">External Link</a>, 
+                internal link to <a href="#section1">Section 1</a>, or go 
+                <a href="#top">Back to Top</a>.
+            </p>
+
+            <hr>
+
+            <h3>Feedback Form</h3>
+            <form action="action.php" method="POST">
+                
+                <label for="full-name">Full Name:</label><br>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+                <label for="feedback">Your Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="30" placeholder="Type your feedback here..."></textarea><br><br>
+
+                <button type="submit">Submit Form</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Webpage. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
