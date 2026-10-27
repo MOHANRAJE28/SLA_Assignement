@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+</head>
+<body>
+    
+    <h1>JavaScript Coding</h1>
+<!--     
+    JS_Conditional and Loop Statements: Task
+1. Write a Program to reverse a string in JavaScript.
+
+2. Write a Program to check whether a string is a palindrome string.
+3. Find the largest number in an array in JavaScript.
+4. How Remove the first element from an array in JavaScript? -->
+
+    <script>
+// 1. Write a Program to reverse a string in JavaScript
+        let str="mohan";
+        let n=str.length;
+        let rstr ="";
+
+        console.log(n);
+        for(let i=n-1;i>=0;i--){
+            // console.log(str[i]);
+            rstr+=str[i];
+        }
+        console.log(rstr);
+
+
+        // 2. Write a Program to check whether a string is a palindrome string.
+
+        let str1 = "SASA";
+        let sr = true;
+        let i=0;
+        let j=str1.length-1;
+
+        while(i<j){
+            
+            if(str1[i] !== str1[j]){
+                sr=false;
+                break;
+            }
+
+            i++;
+            j--;
+        }
+        if(sr){
+            console.log("palindrome");
+
+        }else{
+            console.log("not palindrome");
+        }
+
+
+
+
+
+
+        // 3. Find the largest number in an array in JavaScript.
+        let arr = [34,45,56,5,23] ;
+        let max= arr[0];
+        for(let i=1;i<n;i++){
+
+            if(max < arr[i]){
+                max = arr[i];
+            }
+
+        }
+        console.log(max);
+
+
+        // 4.How Remove the first element from an array in JavaScript?
+
+        let arr1=[45,5,67,7];
+            arr1.shift();
+        console.log(arr1);
+
+
+
+
+    </script>
+</body>
+</html>
