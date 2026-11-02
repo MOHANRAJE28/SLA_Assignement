@@ -1,0 +1,1074 @@
+
+/* root */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "system-ui"
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/* top button */
+
+
+
+/* header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1rem 2rem;
+    background-color: #ffff;
+}
+
+/* nav section */
+.nav a{
+    margin: 0 1rem;
+    font-family: "system-ui";
+    color: black;
+    font-weight: 500;
+}
+
+.nav a:hover{
+    color: #d60231;
+}
+
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://labartisan.net/demo/foodbuzz/assets/css/bg-image/banner-bg.jpg");
+    border: green 1px solid;
+}
+
+.hero-content{
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-container1{
+    text-align: center;
+    font-size: 2rem;
+    font-family:"system-ui";
+}
+
+.hero-container1 h1{
+    font-size: 3em ;
+    color: #d60231;
+}
+
+.hero-container1 h4{
+    color:#ffc139;
+}
+
+.hero-container1 h3{
+    color:#362725 ;
+}
+
+.hero-container2 {
+    margin: 0 1rem;
+}
+button{
+    margin: 0 0.5rem;
+    border-radius:2px;
+    width:130px;
+    height: 40px;
+    border-radius: 4px;
+    font-family: "system-ui";
+    text-transform: uppercase;
+    font-weight:500;
+    outline: none;
+    border: #d60231 solid 2px;
+    cursor: pointer;
+}
+
+#ordernow{
+
+    background-color: #d60231;
+    color:#ffff;
+
+    transition: background-color 0.5s linear;
+}
+
+#Book-table{
+    color:#d60231;
+    transition:background-color 0.5s linear;
+
+}
+/* hover effect */
+#Book-table:hover{
+    background-color: #d60231;
+    color: #ffff;
+}
+
+#ordernow:hover{
+    background-color:#000 ;
+    color:#ffff;
+    border: #000 solid 2px;
+}
+
+
+
+
+/* section about us */
+
+.about-us{
+    min-height: 80vh;
+    display: flex;
+    border-radius: rgb(255, 0, 0) 3px solid;
+    
+    justify-content:space-between;
+    align-items: center;
+    margin: 2rem 5rem;
+
+}
+
+.abt-left{
+   
+    /* width:600px; */
+    flex: 1;
+    min-width: 0;
+    padding: 0 40px;
+    
+}
+
+.abt-img{
+    /* border:green 4px solid; */
+}
+
+.abt-hd h3{
+    color:#d60231;
+    text-transform:uppercase;
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+
+.abt-hd h4{
+    color:#362725;
+    text-transform:uppercase;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+.abt-ctn{
+    text-align: justify;
+}
+
+#get-dir{
+    color:#d60231
+}
+
+
+/* special food */
+
+.sp-food{
+    overflow: hidden;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://labartisan.net/demo/foodbuzz/assets/css/bg-image/contact-bg.jpg);
+    /* background-image: url(https://labartisan.net/demo/foodbuzz/assets/css/bg-image/contact-bg.jpg); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+
+.sp-content-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    color: #fff;
+}
+
+.sp-content h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.sp-content h1{   
+     font-size: 38px;
+     margin-bottom: 30px;
+}
+
+/* cards */
+
+.sp-cards{
+    display: flex;
+    flex-direction: row;
+}
+.product-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: auto;
+    padding: 20px 0px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.star-card i{
+    color:#e9ba17
+}
+
+
+/* online table */
+
+.table-book{
+    min-height: 100vh;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://labartisan.net/demo/foodbuzz/assets/css/bg-image/product-2.jpg);
+
+}
+
+.tb-content-1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-tb{
+
+    display: flex;
+    /* border:2px solid red; */
+    background-color:#fff;
+    border-radius: 6px;
+    /* width: calc(70% - 10px); */
+    box-shadow: 0 0px 25px -5px rgba(0, 0, 0, 0.7), 0 0px 10px -6px rgba(0, 0, 0, 0.7);
+     z-index: 1;
+     margin-top:30px;
+     margin: 30px 15rem 0 15rem;
+
+     padding: 20px;
+    }
+
+    /* form card */
+.formcard-1
+    {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 10px;
+gap:20px;
+    }
+
+
+.formcard-1 .input-field,.input-field select{
+        flex: 0 0 calc(50%-20px);
+        width: calc(50% - 10px);
+        box-sizing: border-box;
+        padding: 10px;
+        
+
+}
+
+.formcard-1 textarea,
+.formcard-1 button {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+}
+
+
+
+/* testimonials */
+
+.testimonial{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://labartisan.net/demo/foodbuzz/assets/images/clients/clients_bg.jpg);
+
+}
+
+.tt-content-1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.ttu-img{
+    /* width:160px;
+    height: 160px; */
+    width: 100%;
+    height: auto;
+}
+
+.ttu-img img{
+    border-radius: 50%;
+
+}
+.tt-content-2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    /* border: 2px red solid; */
+
+}
+
+/*transition*/
+
+
+/* Testimonial slider */
+
+.testimonial {
+    min-height: 100vh;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+                        rgba(0, 0, 0, 0.5)),
+        url("https://labartisan.net/demo/foodbuzz/assets/images/clients/clients_bg.jpg");
+
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.tt-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+}
+
+.testimonial-slider {
+    width: 100%;
+    max-width: 1100px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.testimonial-track {
+    display: flex;
+    width: 300%;
+    transition: transform 0.8s ease-in-out;
+}
+
+.testimonial-card {
+    flex: 0 0 33.333333%;
+    width: 33.333333%;
+    box-sizing: border-box;
+    padding: 20px 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.ttu-img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.ttu-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.content-tt {
+    width: 100%;
+    max-width: 600px;
+}
+
+.content-tt p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.star-card {
+    color: #e9ba17;
+    margin: 12px 0;
+}
+
+.content-tt h2 {
+    font-size: 22px;
+    margin-top: 12px;
+}
+
+.content-tt h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    .testimonial {
+        min-height: 100vh;
+        padding: 40px 15px;
+    }
+
+    .tt-content h1 {
+        font-size: 25px;
+    }
+
+    .testimonial-card {
+        padding: 15px;
+    }
+
+    .content-tt p {
+        font-size: 15px;
+    }
+
+    .content-tt h2 {
+        font-size: 19px;
+    }
+}
+
+
+.content-tt{
+    width:calc(50% - 10px);
+}
+
+.content-tt p{
+    margin: 10px 0px;
+}
+
+.content-tt h2{
+    margin-top: 10px;
+}
+
+/* footer */
+.footer-1{
+    min-height: 70vh;
+    background-image: url(https://labartisan.net/demo/foodbuzz/assets/css/bg-image/footer-bg.jpg);   
+}
+
+/* Timing*/
+
+.footer-1 {
+    min-height: 70vh;
+    padding: 80px 7.5% 40px;
+
+    background-image:
+        url("https://labartisan.net/demo/foodbuzz/assets/css/bg-image/footer-bg.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 60px;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.footer-column h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #292929;
+    margin-bottom: 24px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    min-height: 76px;
+    border-bottom: 1px dashed #f2dfc2;
+}
+
+.contact-item p,
+.hours-item p,
+.description,
+.social-links {
+    font-size: 18px;
+    color: #686868;
+    line-height: 1.7;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+
+    background: #ffbd35;
+    color: white;
+    font-size: 23px;
+}
+
+.hours-item {
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr;
+    align-items: center;
+    gap: 12px;
+
+    min-height: 79px;
+    border-bottom: 1px dashed #f2dfc2;
+}
+
+.hours-item span {
+    color: #ffae22;
+    font-size: 23px;
+}
+
+.hours-item p:last-child {
+    white-space: nowrap;
+}
+
+.footer{
+    text-align: center; 
+    margin: 30px 0px;
+}
+
+/* ==================================================================== */
+/* responsive code */
+
+/* Hide hamburger on desktop */
+.hamburgur {
+    display: none;
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Prevent unwanted horizontal scrolling */
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* ==============================
+   TABLETS: 768px - 1024px
+============================== */
+
+@media screen and (max-width: 1024px) {
+
+    /* Header */
+    .header {
+        padding: 1rem 1.5rem;
+    }
+
+    .nav a {
+        margin: 0 0.5rem;
+        font-size: 14px;
+    }
+
+    /* Hero */
+    .hero-container1 h1 {
+        font-size: 2.5em;
+    }
+
+    /* About Us */
+    .about-us {
+        margin: 2rem;
+        gap: 20px;
+    }
+
+    .abt-left {
+        padding: 0 10px;
+    }
+
+    .abt-img {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .abt-img img {
+        width: 100%;
+    }
+
+    /* Special food cards */
+    .sp-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product-card {
+        width: calc(50% - 30px);
+        padding: 20px 10px;
+    }
+
+    .img-card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Table booking */
+    .card-tb {
+        margin: 30px 3rem 0;
+        max-width: calc(100% - 6rem);
+    }
+
+    .card-tb > .img-card {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .card-tb > .img-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .form-card {
+        flex: 1;
+        min-width: 0;
+    }
+
+    /* Footer */
+    .footer-container {
+        gap: 30px;
+    }
+
+    .footer-column h2 {
+        font-size: 26px;
+    }
+
+    .hours-item {
+        grid-template-columns: 20px 1fr;
+    }
+
+    .hours-item p:last-child {
+        grid-column: 2;
+        white-space: normal;
+    }
+}
+
+/* ==============================
+   MOBILE: Up to 767px
+============================== */
+
+@media screen and (max-width: 767px) {
+
+    /* Header */
+    .header {
+        position: relative;
+        padding: 12px 20px;
+        flex-wrap: wrap;
+    }
+
+    .logo img {
+        max-width: 150px;
+    }
+
+    .hamburgur {
+        display: block;
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    .nav a {
+        display: block;
+        padding: 10px 0;
+        margin: 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    /*
+      The hamburger is visible, but the menu remains
+      hidden until you add a JavaScript toggle.
+    */
+
+    /* Hero */
+    .hero {
+        min-height: 75vh;
+        padding: 40px 15px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-content {
+        width: 100%;
+        border: none;
+    }
+
+    .hero-container1 {
+        font-size: 1rem;
+    }
+
+    .hero-container1 h1 {
+        font-size: clamp(2rem, 8vw, 3rem);
+    }
+
+    .hero-container1 h4 {
+        font-size: 1.2rem;
+    }
+
+    .hero-container1 h3 {
+        font-size: 1rem;
+    }
+
+    .hero-container2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0;
+    }
+
+    button {
+        max-width: 100%;
+    }
+
+    /* About Us */
+    .about-us {
+        min-height: auto;
+        flex-direction: column;
+        align-items: stretch;
+        margin: 40px 20px;
+        gap: 25px;
+    }
+
+    .abt-left {
+        padding: 0;
+    }
+
+    .abt-hd h3,
+    .abt-hd h4 {
+        font-size: 23px;
+    }
+
+    .abt-ctn {
+        line-height: 1.7;
+    }
+
+    .abt-img {
+        width: 100%;
+        border: none;
+    }
+
+    .abt-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Special food */
+    .sp-food {
+        min-height: auto;
+        padding: 40px 15px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sp-content-1 {
+        margin-top: 10px;
+    }
+
+    .sp-content h3 {
+        font-size: 22px;
+    }
+
+    .sp-content h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .sp-cards {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card {
+        width: 100%;
+        max-width: 350px;
+        margin: 12px 0;
+        padding: 20px 10px;
+    }
+
+    .img-card {
+        max-width: 100%;
+    }
+
+    .img-card img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content-card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .content-card h2 {
+        font-size: 21px;
+    }
+
+    .content-card h3 {
+        font-size: 17px;
+    }
+
+    /* Online table booking */
+    .table-book {
+        min-height: auto;
+        padding: 40px 15px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .tb-content-1 {
+        margin-top: 0;
+    }
+
+    .tb-content h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .tb-content h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .card-tb {
+        flex-direction: column;
+        width: 100%;
+        max-width: 500px;
+        margin: 25px 0 0;
+        padding: 15px;
+    }
+
+    .card-tb > .img-card {
+        width: 100%;
+    }
+
+    .card-tb > .img-card img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .form-card {
+        width: 100%;
+    }
+
+    .formcard-1 {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 15px;
+        margin: 10px 0;
+    }
+
+    .formcard-1 .input-field,
+    .formcard-1 input,
+    .formcard-1 select,
+    .formcard-1 textarea,
+    .formcard-1 button {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        flex: 0 0 auto;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .formcard-1 textarea {
+        min-height: 120px;
+    }
+
+    /* Testimonials */
+    .testimonial {
+        min-height: auto;
+        padding: 40px 20px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .tt-content-1 {
+        margin-top: 10px;
+    }
+
+    .tt-content h1 {
+        font-size: 27px;
+    }
+
+    .tt-content h3 {
+        font-size: 19px;
+    }
+
+    .tt-content-2 {
+        width: 100%;
+        margin-top: 30px;
+        border: none;
+    }
+
+    .ttu-img {
+        width: 100%;
+    }
+
+    .ttu-img img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+    }
+
+    .content-tt {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .content-tt p {
+        line-height: 1.7;
+        text-align: center;
+    }
+
+    .content-tt h2 {
+        font-size: 22px;
+    }
+
+    /* Footer */
+    .footer-1 {
+        min-height: auto;
+        padding: 40px 20px;
+        background-position: center bottom;
+        background-size: cover;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .footer-column h2 {
+        font-size: 24px;
+    }
+
+    .contact-item {
+        gap: 15px;
+        padding: 12px 0;
+    }
+
+    .contact-item p,
+    .hours-item p {
+        font-size: 15px;
+        overflow-wrap: anywhere;
+    }
+
+    .hours-item {
+        grid-template-columns: 20px 1fr;
+        gap: 8px;
+        padding: 12px 0;
+    }
+
+    .hours-item p:last-child {
+        grid-column: 2;
+        white-space: normal;
+    }
+
+    /* Copyright footer */
+    .footer {
+        margin: 0;
+        padding: 20px 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+/* ==============================
+   SMALL MOBILE: Up to 400px
+============================== */
+
+@media screen and (max-width: 400px) {
+
+    .header {
+        padding: 10px 12px;
+    }
+
+    .logo img {
+        max-width: 125px;
+    }
+
+    .hero-container1 h1 {
+        font-size: 30px;
+    }
+
+    .hero-container1 h4 {
+        font-size: 17px;
+    }
+
+    .hero-container1 h3 {
+        font-size: 14px;
+    }
+
+    .hero-container2 button {
+        width: 120px;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .about-us {
+        margin: 30px 15px;
+    }
+
+    .sp-content h1 {
+        font-size: 24px;
+    }
+
+    .card-tb {
+        padding: 10px;
+    }
+
+    .footer-1 {
+        padding: 30px 15px;
+    }
+}
